@@ -50,6 +50,7 @@ const main = async function(argv) {
     
         return JSON.stringify(await getEvent(argv[2], argv[3]));
     };
+};
 
 (async function() {
 
